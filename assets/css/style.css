@@ -1,0 +1,65 @@
+body {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    justify-content: space-evenly;
+    border: solid black 2px;
+    background-color: rosybrown;
+}
+
+.card p {
+    font-size: medium;
+    font-weight: bold;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    height: 350px;
+    width: 350px;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+}
+
+.total {
+    color: black;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+#idcolor {
+    width: 170px;
+    height: 21px;
+}
+
+.circulo {
+    display: flex;
+}
+
+.circulo div {
+    width: 25px;
+    height: 25px;
+    border: solid 2px black;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 20px;
+}
